@@ -287,9 +287,9 @@ that the book is currently not available.*/
 
 
 CREATE OR REPLACE PROCEDURE issue_books(p_issued_id VARCHAR(222),
-										 p_issued_member_id VARCHAR(222),
-										 p_issued_book_isbn VARCHAR(222),
-										 p_issued_emp_id VARCHAR(222))
+					 p_issued_member_id VARCHAR(222),
+					 p_issued_book_isbn VARCHAR(222),
+					 p_issued_emp_id VARCHAR(222))
 LANGUAGE plpgsql
 AS
 $$
